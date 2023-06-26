@@ -39,7 +39,7 @@ is the path to your custom VM genesis. You can learn more about writing your
 own VM
 [here](https://docs.avax.network/build/tutorials/platform/create-a-virtual-machine-vm).
 
-### Example: [Subnet-EVM](https://github.com/ava-labs/subnet-evm)
+### Example: [Subnet-EVM](https://github.com/lasthyphen/subnet-evm)
 For those that have yet to create their own VM, you can run `./scripts/subnet-evm.sh` to start your own network + subnet running the `Subnet-EVM`. After initial network startup,
 you'll see the following logs when all validators in the network are validating
 your custom blockchain (the actual blockchain ID may be slightly different):
@@ -94,7 +94,7 @@ _This private key is associated with the address `0x8db97C7cEcE249c2b98bDC0226Cc
 Once you've added your network and imported the address with all the funds, you
 can send a transaction like you normally would in MetaMask. Have fun!
 
-### Example: [TimestampVM](https://github.com/ava-labs/timestampvm)
+### Example: [TimestampVM](https://github.com/lasthyphen/timestampvm)
 But wait, there's more! You can also run `./scripts/timestampvm.sh` to start your own network + subnet running the `TimestampVM`. After initial network startup (just like with the `Subnet-EVM`),
 you'll see the following logs when all validators in the network are validating
 your custom blockchain (the actual blockchain ID may be slightly different):
@@ -133,5 +133,5 @@ This tool is **NOT** intended to be a full-fledged node automation framework.
 Rather, it is meant to be a simple tool for anyone to get started with
 Avalanche.
 
-If you are looking for a more powerful framework, check out [avash](https://github.com/ava-labs/avash). This tool lets
+If you are looking for a more powerful framework, check out [avash](https://github.com/lasthyphen/avash). This tool lets
 you run multiple versions of the same binary and provide custom node configs.
